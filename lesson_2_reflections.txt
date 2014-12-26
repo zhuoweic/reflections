@@ -5,3 +5,24 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
     It serve as a pre-test for developer to think about what files would need to be uploaded. And also add some flexibility for managing files because you no longer need to upload all the files in your local directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+    Add the file to the staging area per logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branch helps a lot when we want to experiment some new features without affecting the existing code base. For example, the different distros of linux can be regarded as different branches from the linux kernel.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagram helps stand out the position where two branches diverge. Also, it is also very convenient to illustrate the structure of git log based on which git is organized.
+
+It is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Git automatically determines which lines to be reserved, and which lines to be deleted. It will be more intuitive to see at which point the two branches diverge showing the diagram the way we do.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+    Pros: Do the redundant copy-paste work for developers.
+    Cons: Automatic merge may result in some unexpected merge and uncompilable codes.
