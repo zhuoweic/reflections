@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It helps to pinpoint the error that is carelessly made when modifying codes, for example, typos. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It would be easier to keep track of your frequent mistakes, helping you to develop a sense of what good program should be, and what routine should be followed in composing codes.
+    It would also help you to roll back the program once you decide you want to use the previous version of the program. In that case, you don't need to try hard to recall the program you previously written. You simply roll back to the history of the program to get the previous version.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: You have much more flexibility in choosing when to commit. Your commited source code will always be compileble. Most importantly, you can always make one commit per logical change.
+    Cons: You may forget to create a commit. Chances are that you will make the changes in commit pretty big.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    This is because Git mainly serve for code development, which usually includes changing multiple interrelated files simultaneously. On the contrary, Google Docs serve for ordinary rich text editing, which seldom involve interrelated documents.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Use git log to find the commit id, and use git diff to figure out what was changed in one commit.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You don't need to be afraid of making mistakes or introducing bugs.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Take a look at the submit history of asteroid.
